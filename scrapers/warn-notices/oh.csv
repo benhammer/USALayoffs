@@ -1,0 +1,361 @@
+company,effective_date,location,number_of_workers
+Company,LayoffDate(s),"City, OH",Potential NumberAffected
+Schneider Electric,12/04/2020,"Independence, OH",13
+Chick Master Incubator Company,01/01/2021-03/01/2021,"Medina, OH",70
+"InterContinental Hotels Group Resources, LLC (IHG)(Crowne Plaza Columbus-Downtown)",11/30/2020,"Columbus, OH",49
+Community Development Institute Head Start (CDI HS),10/31/2020,"Various Cities, OH",113
+"SSA Group, LLC - Center of Science & Industry",03/29/2020,"Columbus, OH",47
+"SSA Group, LLC - Cincinnati Museum Center",03/29/2020,"Cincinnati, OH",31
+P.F. Chang's China Bistro,03/23/2020,"Dayton, OH",32
+P.F. Chang's China Bistro,03/23/2020,"Cincinnati, OH",42
+P.F. Chang's China Bistro,03/23/2020,"West Chester, OH",48
+P.F. Chang's China Bistro,03/23/2020,"Maumee, OH",33
+P.F. Chang's China Bistro,03/23/2020,"Akron, OH",32
+P.F. Chang's China Bistro,03/23/2020,"Beachwood, OH",35
+P.F. Chang's China Bistro,03/23/2020,"Dublin, OH",26
+P.F. Chang's China Bistro,03/23/2020,"Columbus, OH",51
+"Alutiiq Management Services, LLC (Dayton Job Corp Center)",11/30/2020,"Dayton, OH",121
+"LAZ Parking Midwest, LLC",05/08/2020-05/10/2020,"Cleveland, OH",2
+"LAZ Parking Midwest, LLC",09/02/2020,"Columbus, OH",2
+"RCSH Operations, LLC (Ruth's Chris Steak House)",09/27/2020,"Cleveland, OH",47
+Aramark Sinclair Community College,09/23/2020-10/01/2020,"Dayton, OH",63
+"ABM, Inc. (Hertz)",10/04/2020,"Cleveland, OH",67
+Hilton Management LLC - Columbus Downtown,08/28/2020,"Columbus, OH",42
+"Lerner, Sampson & Rothfuss",03/20/2020,"Cincinnati, OH",90
+International Exposition Center (I-X Center),09/16/2020,"Cleveland, OH",75
+Hyatt Regency Columbus,06/20/2020-09/12/2020,"Columbus, OH",192
+"Ascena Retail Group, Inc., Catherines, Inc., Catherines Stores Corporation, Lane Bryant, Inc., and Lane Bryant Purchasing Corp.",10/02/2020-11/08/2020,"Columbus, OH",190
+"Arrow International, Inc.",04/10/2020,"Brooklyn, OH",171
+"Tween Brands, Inc. and Ascena Retail Group, Inc.",10/02/2020-01/29/2021,"New Albany, OH",163
+"Ascena Retail Group, Inc., Catherines, Inc., Catherines Stores Corporation, Lane Bryant, Inc., and Lane Bryant Purchasing Corp.",10/02/2020-10/30/2020,"Columbus, OH",186
+Columbus Association for the Performing Arts (CAPA),03/17/2020-08/17/2020,"Columbus, OH",398
+"Avis Budget Car Rental, LLC",04/04/2020-04/15/2020,"Various Cities, OH",101
+Hyatt Regency Cincinnati,08/18/2020,"Cincinnati, OH",61
+"Live Nation Entertainment, Inc.",04/24/2020-07/06/2020,"Cleveland, OH",76
+"United Airlines, Inc. - Cleveland Hopkins International Airport",10/30/2020-11/30/2020,"Cleveland, OH",7
+The Ritz-Carlton Hotel Co. LLC,10/30/2020,"Cleveland, OH",74
+Kroger Store #555,10/30/2020,"Kenton, OH",115
+PSA Airlines,10/25/2020,"Vandalia, OH",47
+Fusite,08/03/2020-08/28/2020,"Cincinnati, OH",7
+"Maritz Holdings, Inc.",08/21/2020,"Twinsburg, OH",21
+"Murray American Energy, Inc.",09/01/2020,"Saint Clairsville, OH",22
+"American Natural Gas, Inc.",09/01/2020,"Saint Clairsville, OH",10
+"American Mine Services, Inc.",09/01/2020,"Clarington, OH",37
+American Energy Corporation,09/01/2020,"Beallsville, OH",206
+The Ohio Valley Transloading Company,09/01/2020,"Powhatan Point, OH",3
+The Ohio Valley Coal Company,09/01/2020,"Alledonia, OH",62
+Concord Dayton Hotel II LLC (Marriott at the University of Dayton),9/18/2020,"Dayton, OH",117
+"ARaymond Tinnerman Industrial, Inc.",10/05/2020-05/14/2021,"Brunswick, OH",54
+ASM Global - Greater Columbus Convention Center,08/02/2020,"Columbus, OH",136
+HMSHost Vermillion Travel Plaza,10/15/2020,"Amherst, OH",6
+HMSHost Towpath Travel Plaza,10/15/2020,"Broadview Heights, OH",2
+HMSHost Tiffin River Travel Plaza,10/15/2020,"West Unity, OH",1
+HMSHost Middleridge Travel Plaza,10/15/2020,"Amherst, OH",7
+HMSHost Eric Island Travel Plaza,10/15/2020,"Clyde, OH",3
+HMSHost Ohio Regional Office at Middleridge,10/15/2020,"Amherst, OH",4
+HMSHost Commodore Perry Travel Plaza,10/15/2020,"Clyde, OH",3
+Maritz Holdings Inc.,10/16/2020-02/01/2020,"Twinsburg, OH",68
+HMSHost Dayton International Airport,10/15/2020,"Vandalia, OH",62
+HMSHost Cleveland Hopkins International Airport,10/15/2020,"Cleveland, OH",44
+HMSHost John Glenn Columbus International Airport,10/15/2020,"Columbus, OH",225
+"Maxion Wheels Akron, LLC",11/06/2020-12/18/2020,"Akron, OH",80
+Therm-O-Disc,11/2020-12/2022,"Mansfield, OH",248
+"ASC Airtex, LLC",10/01/2020-12/31/2020,"North Canton, OH",161
+"Rassini Chassis Systems, LLC",10/02/2020-12/31/2020,"Montpelier, OH",70
+"Conn-Selmar, Inc.",03/25/2020,"Eastlake, OH",110
+"Tween Brands, Inc. and Ascena Retail Group, Inc.",10/02/2020-10/30/2020,"New Albany, OH",164
+"Ascena Retail Group, Inc., Catherines, Inc., Catherines Stores Corporation, Lane Bryant, Inc., and Lane Bryant Purchasing Corp.",10/02/2020-10/30/2020,"Columbus, OH",188
+"PL Marketing, Inc.",08/14/2020,"Various Cities, OH",243
+Republic Airways,10/01/2020,"Columbus, OH",216
+"Retail Store Operations, Inc.",09/26/2020-01/31/2021,"Columbus, OH",6
+"Independent Production Services, LLC",09/26/2020-01/31/2021,"Columbus, OH",1
+"Bath & Body Works Brand Management, Inc.",09/26/2020-01/31/2021,"Reynoldsburg, OH",8
+"Bath & Body Works, LLC",09/26/2020-01/31/2021,"Reynoldsburg, OH",2
+"beautyAvenues, LLC",09/26/2020-01/31/2021,"Reynoldsburg, OH",15
+"Victoria's Secret Direct Brand Management, LLC",09/26/2020-01/31/2021,"Reynoldsburg, OH",24
+"Victoria's Secret Service Company, LLC",09/26/2020-01/31/2021,"Reynoldsburg, OH",22
+"Victoria's Secret Stores Brand Management, LLC",09/26/2020-01/31/2021,"Reynoldsburg, OH",55
+"Victoria's Secret Stores, LLC",09/26/2020-01/31/2021,"Reynoldsburg, OH",52
+"Mast Technology Services, Inc.",09/26/2020-01/31/2021,"Columbus, OH",142
+"L Brands Store Design & Construction, Inc.",09/26/2020-01/31/2021,"Columbus, OH",49
+"Mast Logistics Services, LLC",09/26/2020-01/31/2021,"Columbus, OH",9
+"L Brands Service Company, LLC",09/26/2020-01/31/2021,"Columbus, OH",56
+"MII Brand Import, LLC",09/26/2020-01/31/2021,"Columbus, OH",42
+"Retail Brokerage Solutions, LLC",09/26/2020-01/31/2021,"Columbus, OH",5
+Fusite,Unknown,"Cincinnati, OH",113
+"Lakefront Lines, Inc.",03/16/2020,"Various Cities, OH",339
+Hopedale Mining LLC (Rhino Energy LLC),09/20/2020,"Hopedale, OH",113
+Hilton Management LLC - Cleveland Downtown,03/20/2020,"Cleveland, OH",178
+Hilton Management LLC - Columbus Downtown,03/20/2020,"Columbus, OH",151
+American Queen Steamboat Company,09/24/2020,"Cincinnati, OH",250
+"ArcelorMittal Cleveland, Inc - ArcelorMittal USA LLC",08/01/2020,"Cleveland, OH",454
+Air Wisconsin Airlines - Dayton International Airport,10/01/2020,"Vandalia, OH",47
+Johnson Matthey Process Technologies Inc.,10/02/2020-02/01/2021,"Ravenna, OH",55
+ExpressJet Airlines,10/01/2020,"Cleveland, OH",95
+PSA Airlines,10/01/2020,"Vandalia, OH",259
+"JSW Steel USA Ohio, Inc.",07/17/2020-08/15/2020,"Mingo Junction, OH",160
+Center of Science and Industry (COSI),04/08/2020,"Columbus, OH",177
+"Reisenfeld & Associates, LLC",03/20/2020-07/02/2020,"Cincinnati, OH",69
+"United Airlines, Inc. - Cleveland Hopkins International Airport",10/01/2020,"Cleveland, OH",466
+"Delaware North Companies, Inc.",03/23/2020,"Various Cities, OH",1805
+Franklin Park Conservatory and Botanical Gardens,03/16/2020,"Columbus, OH",95
+"Fiserv, Inc.",09/04/2020-09/18/2020,"Dublin, OH",79
+Raymond Management Company (Hilton Garden Inn Hotel),06/30/2020,"Mason, OH",29
+Raymond Management Company (AC by Marriott Hotel),06/30/2020,"Liberty Township, OH",20
+The Salvation Army Family Store,05/11/2020,"Dayton, OH",8
+Levy Premium Foodservice - The Greater Columbus Convention Center,08/01/2020,"Columbus, OH",59
+Levy Premium Foodservice - Huntington Convention Center of Cleveland,08/01/2020,"Cleveland, OH",19
+Oberlin College,07/15/2020-08/15/2020,"Oberlin, OH",108
+"Magna Industries, Inc.",08/31/2020,"Cleveland, OH",102
+Copart,06/29/2020,"Columbus, OH",72
+"Allpro Parking, Ohio, LLC",06/07/2020,"Columbus, OH",23
+"Allpro Parking, Ohio, LLC",06/07/2020,"Cleveland, OH",22
+"Sumaria Systems, Inc.",08/31/2020,"Wright-Patterson AFB, OH",72
+"J-Lenco, Inc.",07/05/2020,"La Rue, OH",7
+AFP 116 Corp. - Embassy Suites Columbus Airport,05/15/2020,"Columbus, OH",57
+"Allpro Parking Ohio, LLC",06/07/2020,"Cincinnati, OH",18
+TIMET,04/12/2020-06/26/2020,"Toronto, OH",200
+Levy Premium Foodservice-The Ohio State University,08/01/2020,"Columbus, OH",34
+"ADESA Ohio, LLC - Automotive Finance Corporation (AFC)",08/01/2020,"Northfield, OH",28
+Cleveland Indians Baseball Company LLC,07/15/2020,"Cleveland, OH",85
+General Electric Aviation,04/17/2020-07/24/2020,"Cincinnati, OH",529
+Hollywood Gaming Mahoning Valley Race Course,08/15/2020-10/08/2020,"Youngstown, OH",32
+"Westin Cincinnati (Merritt Hospitality, LLC)",05/30/2020,"Cincinnati, OH",98
+Marriott International Customer Engagement Center,03/24/2020,"Solon, OH",200
+"Certech, Inc.",08/24/2020-09/04/2020,"Twinsburg, OH",15
+Northeast Projections Inc.,06/16/2020,"Valley View, OH",13
+Hollywood Casino Columbus,08/15/2020,"Columbus, OH",286
+Hollywood Casino Toledo,08/15/2020,"Toledo, OH",116
+"HFI, Inc.",08/03/2020,"Canal Winchester, OH",99
+ArcelorMittal Columbus LLC/ArcelorMittal USA LLC,08/02/2020,"Columbus, OH",121
+Credit First National Association,08/15/2020,"Akron, OH",52
+Hyatt Regency Columbus,06/20/2020,"Columbus, OH",192
+"Green Bay Dressed Beef, LLC",08/07/2020,"Sharonville, OH",95
+The Ritz-Carlton Hotel Co. LLC,03/21/2020,"Cleveland, OH",200
+"Homewood Suites Columbus (Crescent Hotels & Resorts, LLC)",03/20/2020,"Columbus, OH",4
+"GSW Manufacturing, Inc.",07/31/2020-09/04/2020,"Findlay, OH",61
+"Renaissance Hotel Mgmt Co., LLC",03/21/2020,"Columbus, OH",158
+"Cleveland Indians Baseball Company, LLC",03/13/2020,"Cleveland, OH",1146
+Cincinnati Museum Center,07/01/2020-08/01/2020,"Cincinnati, OH",175
+Boyd Gaming - Belterra Park Gaming & Entertainment Center,07/01/2020-07/14/2020,"Cincinnati, OH",361
+21C Museum Hotel,05/20/2020-07/01/2020,"Cincinnati, OH",158
+"Schneller, Inc.",05/18/2020,"Kent, OH",50
+"Poma Glass and Specialty Windows, Inc.",07/25/2020,"Boardman, OH",57
+Verso Corporation,Unknown,"Miamisburg, OH",59
+"PCC Airfoils, LLC",05/22/2020,"Crooksville, OH",122
+The Michaels Companies,07/18/2020-10/30/2020,"Strongsville, OH",320
+"LAZ Parking Midwest, LLC",03/12/2020-04/16/2020,"Cleveland, OH",62
+"LAZ Parking Midwest, LLC",03/15/2020-04/11/2020,"Columbus, OH",154
+Nine Energy Service,03/12/2020-04/09/2020,"Marietta, OH",60
+International Exposition Center (I-X Center),03/20/2020-04/03/2020,"Cleveland, OH",176
+Enterprise Holdings,04/30/2020,"Columbus, OH",35
+Enterprise Holdings,04/30/2020,"Blue Ash, OH",14
+Enterprise Holdings,04/30/2020,"Columbus, OH",3
+Enterprise Holdings,03/23/2020,"Columbus, OH",66
+Enterprise Holdings,03/23/2020,"Blue Ash, OH",163
+Enterprise Holdings,03/23/2020,"Columbus, OH",80
+"Collegiate Hotel Group, LLC",03/16/2020,"Columbus, OH",135
+HMS Host Corporation,06/01/2020,"Mantua, OH",84
+ASWPengg LLC,06/30/2020,"Bedford Heights, OH",122
+Cox Automotive,05/17/2020,"Hamilton, OH",80
+Cox Automotive,05/17/2020,"Grove City, OH",117
+VSP Global,05/01/2020,"Columbus, OH",128
+"Specialty Retailers, Inc. (Stage Distribution Center)",05/07/2020,"Jeffersonville, OH",287
+QMax America Inc.,05/08/2020,"Newcomerstown, OH",3931
+DoubleTree Cleveland Downtown,03/21/2020,"Cleveland, OH",97
+Hilton Columbus Polaris,03/21/2020-08/31/2020,"Columbus, OH",94
+Hyatt Regency Cincinnati,05/06/2020,"Cincinnati, OH",73
+Northfield Park Associates -MGM Northfield Park,03/02/2020-03/15/2020,"Northfield, OH",937
+MGM Resorts Satellite LLC,03/02/2020-03/15/2020,"Northfield, OH",1
+Brentwood Originals Inc.,05/01/2020,"Youngstown, OH",19
+B&C Research Inc.,04/03/2020-06/01/2020,"Barberton, OH",121
+Licking County Library,05/11/2020,"Various Cities, OH",58
+ArcelorMittal Warren LLC,4/26/2020,"Warren, OH",2
+"Mitec-Powertrain, Inc. & Automotive, Inc.",Unknown,"Findlay, OH",186
+"Great Lakes Specialty Finance, Inc.",06/05/2020,"Fairfield, OH",2
+"LeSaint Logistics, LLC",06/19/2020,"Cleveland, OH",70
+The Hall China Company,04/30/2020-05/30/2020,"East Liverpool, OH",40
+The Shelly Company,03/13/2020,"Thornville, OH",22
+Atrium Hospitality (Marriott),03/12/2020,"Columbus, OH",104
+Atrium Hospitality (Holiday Inn & Suites),03/12/2020,"Cincinnati, OH",60
+ArcelorMittal USA LLC,04/26/2020,"Richfield, OH",2
+"DBOH Associates, LLC",03/20/2020,"Beachwood, OH",85
+"Sodexo, Inc.",06/30/2020,"Middletown, OH",57
+Enterprise Holdings,03/22/2020,"Hudson, OH",94
+Enterprise Holdings,03/22/2020,"Cleveland, OH",65
+Enterprise Holdings,03/22/2020,"Brookpark, OH",92
+Enterprise Holdings,04/30/2020,"Hudson, OH",1
+Enterprise Holdings,04/30/2020,"Cleveland, OH",14
+Enterprise Holdings,04/30/2020,"Brookpark, OH",1
+American Energy Corporation,05/02/2020,"Beallsville, OH",110
+"Great Lakes Specialty Finance, Inc.",04/21/2020,"Akron, OH",1
+"Eat'n Park Hospitality Group, Inc.",01/08/2020-04/06/2020,"Various Cities, OH",688
+"OS Restaurant Services, LLC",03/15/2020,"Various Cities, OH",3360
+"Constant Aviation, LLC",05/10/2020-05/15/2020,"Richmond Heights, OH",52
+"Belcan, LLC",04/24/2020,"Blue Ash, OH",720
+"Visionworks, Inc.",04/02/2020,"Various Cities, OH",53
+"Gradall Industries, Inc.",02/28/2020-03/24/2020,"New Philadelphia, OH",103
+"Apex Environmental, LLC",03/26/2020-04/10/2020,"Amsterdam, OH",49
+Urbana University (Franklin University),04/21/2020-05/21/2020,"Urbana, OH",321
+"IAC Wauseon, LLC",04/27/2020,"Wauseon, OH",125
+ArcelorMittal Cleveland USA,04/19/2020-04/26/2020,"Cleveland, OH",403
+"Maines Paper & Food Service, Inc.",04/17/2020,"Oakwood Village, OH",63
+"Avis Budget Car Rental, LLC",03/13/2020-03/25/2020,"Cleveland, OH",44
+"Avis Budget Car Rental, LLC",03/20/2020-03/24/2020,"Columbus, OH",29
+"Miller's Ale House, Inc.",05/13/2020,"Columbus, OH",67
+"Miller's Ale House, Inc.",05/13/2020,"Columbus, OH",64
+Blair Rubber Company,04/19/2020,"Seville, OH",12
+"Green Tokai Co., LTD",03/23/2020,"Brookville, OH",543
+"Certech, Inc.",04/20/2020,"Twinsburg, OH",40
+"Westar Hotel Partners, LLC (Renaissance Columbus Westerville)",03/20/2020,"Westerville, OH",105
+"Fulton County Processing, LTD",04/17/2020,"Delta, OH",58
+ArcelorMittal Columbus LLC,04/19/2020,"Columbus, OH",122
+"Profusion Industries, LLC",03/30/2020-04/20/2020,"Marietta, OH",159
+"Pier 1 Imports, Inc.",08/31/2020,"Groveport, OH",221
+Hilton Cincinnati Netherland Plaza,03/19/2020-07/31/2020,"Cincinnati, OH",279
+CBCS,03/23/2020,"Dayton, OH",17
+Scholastic Book Fairs,03/18/2020,"West Chester, OH",142
+"HCFS Health Care Financial Services, LLC",04/15/2020-06/01/2020,"Akron, OH",181
+"Advanced Composites, Inc.",04/13/2020,"Sidney, OH",210
+Crowne Plaza Dayton,03/16/2020,"Dayton, OH",130
+Race Winning Brands,4/14/2020,"Mentor, OH",67
+Concord Dayton Hotel II LLC (Marriott at the University of Dayton),03/20/2020,"Dayton, OH",160
+"Vitro Automotive/Pittsburgh Glass Works, LLC",03/23/2020,"Crestline, OH",318
+Ohio Cinema Investments LLC (Cinepolis),03/23/2020-07/31/2020,"Miamisburg, OH",43
+Deceuninck North America (DNA),04/15/2020,"Monroe, OH",233
+ArcelorMittal Cleveland USA,04/12/2020,"Cleveland, OH",48
+SugarCreek Packing Co.,03/26/2020-04/06/2020,"Dayton, OH",94
+"I Am Boundless, Inc.",04/17/2020,"Worthington, OH",87
+Agrati Tiffin,04/13/2020,"Tiffin, OH",57
+Agrati Medina,04/15/2020,"Medina, OH",163
+VSPOne,04/10/2020-05/01/2020,"Lockbourne, OH",234
+"JSW Steel USA Ohio, Inc.",04/09/2020,"Mingo Junction, OH",162
+"Huhtamaki, Inc.",04/08/2020,"Franklin, OH",20
+Johns Manville,04/06/2020,"Defiance, OH",35
+North American Dental Group,03/23/2020,"Various Cities, OH",443
+"Hooters of America, LLC",03/16/2020,"Various Cities, OH",134
+Acoust-A-Fiber,03/19/22020,"Delaware, OH",159
+Arhaus Furniture,04/03/2020,"Various Cities, OH",188
+CBC Companies,03/27/2020,"Columbus, OH",17
+G6 Hospitality LLC,04/13/2020-04/30/2020,"Worthington, OH",70
+"Huhtamaki, Inc.","04/06/2020, 04/09/2020","Batavia, OH",235
+"Scioto Downs, Inc. (Eldorado Scioto Downs)",04/11/2020,"Columbus, OH",420
+Morris Furniture Company,03/22/2020,"Various Cities, OH",269
+Rayco,04/07/2020,"Wooster, OH",60
+Benihana National Corp,03/16/2020,"Cincinnati, OH",34
+"Samurai, Inc.",03/16/2020,"Cleveland, OH",29
+Benihana Columbus Corp,03/16/2020,"Columbus, OH",37
+Bekaert Corporation,03/27/2020,"Orrville, OH",40
+"VAM USA, LLC",04/30/2020,"Youngstown, OH",59
+Midwest Tape LLC,03/23/2020,"Holland, OH",183
+"Americhem, Inc.",04/01/2020,"Cuyahoga Falls, OH",56
+Cooper Tire & Rubber Company,04/06/2020,"Findlay, OH",797
+Lamrite West,04/06/2020,"Strongsville, OH",45
+Superior Auto Group,04/01/2020,"Cincinnati, OH",72
+"Cinemark USA, Inc.",03/26/2020,"Various Cities, OH",1303
+Rock & Roll Hall of Fame,04/12/2020,"Cleveland, OH",108
+"Goodwill Industries of Greater Cleveland & East Central Ohio, Inc.",03/20/2020,"Various Cities, OH",426
+Crowne Plaza Columbus Downtown,03/20/2020,"Columbus, OH",103
+InterContinental Cleveland Conference Center,04/10/2020,"Cleveland, OH",120
+"RTW Retailwinds, Inc.",03/29/2020,"Various Cities, OH",176
+YUSA Corporation,03/30/2020,"Washington Court House, OH",350
+"Murray American Energy, Inc.",08/10/2020,"Saint Clairsville, OH",22
+"American Natural Gas, Inc.",08/10/2020,"Saint Clairsville, OH",9
+"American Mine Services, Inc.",08/10/2020,"Clarington, OH",37
+American Energy Corporation,08/10/2020,"Beallsville, OH",205
+The Ohio Valley Transloading Company,08/10/2020,"Powhatan Point, OH",3
+The Ohio Valley Coal Company,08/10/2020,"Alledonia, OH",63
+Talbert House,04/03/2020,"Cincinnati, OH",50
+"Aramark Educational Services, LLC-John Carroll University",05/15/2020,"University Heights, OH",102
+"MountainVision Enterprises, Inc.(The Maids of Cincinnati)",03/23/2020,"Cincinnati, OH",23
+Great Lakes Brewing Company,03/31/2020,"Cleveland, OH",116
+"Greenville Technology, Inc./Moriroku-North America",03/23/2020,"Greenville, OH",540
+ASC Airtex,04/01/2020,"North Canton, OH",88
+Busche Performance Group,Unknown,"Edon, OH",75
+General Aluminum Mfg. Company-Conneaut,03/23/2020,"Conneaut, OH",198
+"Great Lakes Services, LLC",03/16/2020-05/01/2020,"Sandusky, OH",802
+Economy Linen,03/20/2020,"Dayton, OH",65
+Westin Cleveland Downtown,03/16/2020,"Cleveland, OH",256
+Inner Health Chiropractic,03/16/2020,"Columbus, OH",11
+Brightside Academy Ohio,03/25/2020,"Cleveland, OH",144
+General Aluminum Mfg. Company-Ravenna,03/23/2020,"Ravenna, OH",212
+Paper Source,03/29/2020,"Woodmere, OH",10
+Paper Source,03/29/2020,"Columbus, OH",13
+"Activehours, Inc-Earnin",04/01/2020,"Loveland, OH",6
+General Aluminum Mfg. Company-Wapakoneta,03/23/2020,"Wapakoneta, OH",121
+"GSW Manufacturing, Inc.",03/30/2020,"Findlay, OH",55
+"Consolidated Metal Products, Inc.",03/30/2020,"Cincinnati, OH",52
+Ohio Star Forge Company,03/30/2020,"Warren, OH",88
+Beacon Orthopaedics & Sports Medicine,03/28/2020,"Sharonville, OH",226
+"America's Auto Auction Toledo, Inc.",03/23/2020,"Perrysburg, OH",127
+"Walsh Commercial Group, LLC",03/24/2020,"Cleveland, OH",55
+"Bermex, Inc.",03/28/2020,"Columbus, OH",45
+Manley Deas,03/27/2020,"Columbus, OH",172
+"S.A. Comunale Co., Inc.",03/23/2020,"Barberton, OH",3
+"Crescent Metal Products, Inc.",03/27/2020,"Mentor, OH",92
+"Dedicated Logistics, Inc.",05/31/2020,"Hamilton, OH",116
+NOMS Healthcare,03/19/2020,"Sandusky, OH",412
+Jakprints,03/17/2020,"Cleveland, OH",56
+"Soundwich, Inc.",03/19/2020,"Cleveland, OH",93
+"Prestige Maintenance USA, LP",03/19/2020,"Various Cities, OH",106
+"Pappas Restaurants, Inc.",03/21/2020,"Springdale, OH",166
+"Augusta Sportswear, Inc.",03/23/2020,"Sidney, OH",200
+"Mark Porter Auto Group-Porter CDJR, Inc.",03/25/2020,"Pomeroy, OH",29
+"Mark Porter Auto Group-Mark Porter Autoplex, Inc.",03/25/2020,"Pomeroy, OH",5833
+"Mark Porter Auto Group-Porter Jackson, Inc.",03/25/2020,"Jackson, OH",41
+International Automotive Components,08/21/2020-10/31/2020,"Huron, OH",234
+Driven Brands Shared Services (Take 5 Oil Change),03/22/2020,"Various Cities, OH",198
+Taiho Corporation of America,03/23/2020,"Tiffin, OH",229
+Ricart Automotive Personnel,03/24/2020,"Columbus, OH",121
+Kleeberger Contracting Services,03/23/2020,"Liberty Center, OH",5
+"Brentwood Originals, Inc.",03/23/2020-03/31/2020,"Youngstown, OH",198
+Things Remembered Fulfillment Center,03/24/2020,"North Jackson, OH",158
+Hilton Garden Inn-Toledo/Perrysburg,03/20/2020-06/30/2020,"Perrysburg, OH",112
+"Ultimate Home Services, LLC",03/24/2020,"Various Cities, OH",62
+Ross Casting & Innovation,03/24/2020,"Sidney, OH",167
+Wright Tool,03/23/2020,"Barberton, OH",140
+Gissing North America,03/23/2020,"Sidney, OH",120
+Renaissance Cleveland Hotel,03/23/2020-04/08/2020,"Cleveland, OH",143
+Spire Hospitality,07/01/2020,"Blue Ash, OH",79
+"JACK Ohio Finance, LLC (JACK Entertainment)",03/31/2020,"Cleveland, OH",1561
+Embassy Suites Cleveland Rockside,03/19/2020-03/31/2020,"Independence, OH",72
+Norcold Incorporated,03/23/2020,"Sidney, OH",345
+Matsu Ohio,03/23/2020-04/17/2020,"Edgerton, OH",175
+US Steel Seamless Tubular Operations (Lorain Tubular),05/24/2020,"Lorain, OH",250
+Roush Auto Group,03/20/2020,"Columbus, OH",200
+Murotech Ohio Corporation,03/20/2020,"Saint Marys, OH",52
+Chilgo LLC,03/16/2020,"Various Cities, OH",331
+"Calimira, LLC (Rusty Bucket Restaurant & Tavern)",03/15/2020,"Various Cities, OH",910
+Cameron Mitchell,03/15/2020,"Various Cities, OH",1390
+Ventra Salem LLC,03/20/2020,"Salem, OH",794
+Kirchhoff Automotive Waverly,03/19/2020,"Waverly, OH",225
+AEP - Conesville,05/31/2020,"Conesville, OH",83
+Strang Corporation,03/16/2020,"Cleveland, OH",105
+"Ultra Premium
+Services, LLC",04/17/2020,"Brookfield, OH",121
+Embassy Suites Dublin,03/19/2020-04/15/2020,"Dublin, Frankli, OH",97
+"Punch Bowl Cleveland
+LLC",03/16/2020,"Cleveland, OH",102
+Totally Promotional,03/17/2020-06/15/2020,"Coldwater, OH",150
+Firebirds Wood Fired Grill,03/15/2020,"Various, OH",410
+Columbus McKinnon Corporation,05/05/2020-11/01/2020,"Lisbon, OH",69
+"QIC Properties US, Inc.",04/30/2020,"Cleveland, OH",56
+Verizon,04/07/2020-07/10/2020,"Hilliard, OH",496
+Pier 1 Distribution and Fulfillment Center,04/10/2020,"Groveport, OH",75
+Worthington Industries,02/11/2020-05/31/2020,"Wooster, OH",120
+Miami University,07/01/2020,"Oxford, OH",39
+Bear Down Logistics,04/02/2020,"Fairfield, OH",105
+JCPenney Store 1071,07/17/2020-07/31/2020,"Akron, OH",66
+"Vantage Partners, LLC",03/31/2020,"Brook Park, OH",216
+U.S. Bank Lunken Operations Center,04/06/2020,"Cincinnati, OH",65
+Macy's Lorain,04/05/2020-10/07/2020,"Lorain, OH",161
+Lamrite West (The Michaels Companies),02/04/2020,"Strongsville, OH",77
+"Fiserv, Inc.",03/31/2020-05/29/2020,"Dublin, OH",102
+"Brighton Tru-Edge Heads & Fabricated Products, Inc.",04/28/2020-05/11/2020,"Cincinnati, OH",71
+"EMCOR Facilities Services, Inc.",03/31/2020,"Cincinnati, OH",59
+Altercare Adena,03/23/2020,"Adena, OH",38
+AMETEK Westchester Plastics,03/31/2020-06/30/2020,"Wapakoneta, OH",78
+Jacobson Warehouse Company (XPO Logistics Supply Chain),03/20/2020,"West Jefferson, OH",185
+Newark Corporation,03/06/2020,"Richfield, OH",71
+Macy's Northgate Mall,03/17/2020-03/30/2020,"Cincinnati, OH",139
+Gannett,03/06/2020,"Columbus, OH",186
