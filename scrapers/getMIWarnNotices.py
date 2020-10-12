@@ -38,14 +38,14 @@ def getMIWarnNotices():
             for string in notices:
                 if string in months:
                     month = string
-                elif len(string) == 2:
+                elif len(string) == 2 and not "GM" in string:
                     date = month + ' ' + string + ', ' + year
                     company = notices[count+1]
                     notice.append(company)
                     
-                elif "Layoff" in string or "Closure" in string:
+                elif "Number Affected" in string:
                     incident_type = string[:string.find(' ')]
-                    city = string[string.find(':')+2:string.find('Count')]
+                    city = string[string.find(':')+2:string.find('Cou')]
                     number_affected = string[string.find('d:')+3:]
                     notice.append(date)
                     notice.append(city + "MI")

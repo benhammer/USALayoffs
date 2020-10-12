@@ -135,11 +135,11 @@ for row in reader:
   shards[shard][zipcode] = [latitude, longitude, state_code, state_name, county_name, place_name]
 
 # Make a directory for the generated shard files.
-os.makedirs("zipcode-shards", exist_ok=True)
+os.makedirs("../www/zipcode-shards", exist_ok=True)
 
 # Write out each shard.
 for shard, data in shards.items():
-  with open("zipcode-shards/{}.txt".format(shard), "w") as f:
+  with open("../www/zipcode-shards/{}.txt".format(shard), "w") as f:
     # Write out each ZIP code as a record.
     for zipcode, record in sorted(data.items()):
       # Write the ZIP code plus a pipe.

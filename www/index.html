@@ -48,7 +48,8 @@
     <div class="jumbotron" style="padding-bottom: 30px">
       <div class="container">
         <h1 class="display-5">Closures in Donald Trump’s America</h1>
-        <p class="lead">There are factory closures and company layoffs everywhere. Here are some near you.</p>
+        <p class="lead">Trump says he’s good for the economy. He’s not.</p>
+        <p class="lead">Countless businesses have closed and jobs have been lost since the start of the Trump presidency. This website shows those for which public notification is required under the WARN Act—which generally only includes larger layoffs happening quickly. There have been many more layoffs in addition to these.<p>
 
         <div class="row">
           <div class="col-sm-5" style="margin-top: 1em">
@@ -82,7 +83,7 @@
     <footer>
       <hr>
       <div class="container">
-        <p>CONTACT ETC</p>
+        <p>Currently with data from <a href="https://www.dli.pa.gov/Individuals/Workforce-Development/warn/notices/Pages/default.aspx">Pennsylvania</a>, <a href="https://www.michigan.gov/leo/0,5863,7-336-94422_95539_64178_64179---Y_2020,00.html">Michigan</a>, <a href="https://dwd.wisconsin.gov/dislocatedworker/warn/">Wisconsin</a>, <a href="https://jfs.ohio.gov/warn/current.stm">Ohio</a>, <a href="https://www.azjobconnection.gov/ada/mn_warn_dsp.cfm?def=false">Arizona</a>, <a href="https://www.twc.texas.gov/businesses/worker-adjustment-and-retraining-notification-warn-notices#warnNotices">Texas</a>, and <a href="https://www.dol.state.ga.us/public/es/warn/searchwarns">Georgia</a>. More states are on the way.</p>
         <p>ZIP code database from <a href="http://www.geonames.org/about.html">Geonames</a>.</p>
       </div>
     </footer>
@@ -92,7 +93,7 @@
         <div class=card-body>
           <h5 class=card-title></h5>
           <p class='summary card-text'>
-            <span class=count></span> would be layed off
+            <span class=count></span> reported
             <!-- <span class=distance></span> away -->
             in <span class=location></span>
             on <span class=date></span>
@@ -321,7 +322,7 @@
 
           var n = item_template.clone();
           n.find('h5').text(wn[0]);
-          n.find('.count').text(wn[2] + " workers");
+          n.find('.count').text(wn[2] + " layoffs");
           n.find('.location').text(wn[3]);
           //n.find('.distance').text(d);
           n.find('.date').text(wn[1]);
