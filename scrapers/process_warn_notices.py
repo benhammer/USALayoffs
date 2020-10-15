@@ -4,15 +4,21 @@
 # subsets of the data near the user's latitude/longitude
 # coordinate, and save those clusters to JSON files that
 # the client browser can find easily.
+#
+# You will need to install some packages by running:
+#
+# pip install numpy scipy python-dateutil pygeocodio
 
 import csv
 import glob
 import json
 import os
 import shelve
+import re
 
 import numpy
 import scipy.cluster.vq
+from dateutil.parser import parse as parse_date
 
 from geocodio import GeocodioClient
 
@@ -24,6 +30,20 @@ warn_notices = []
 for wnf in glob.glob("warn-notices/*.csv"):
   for rec in csv.DictReader(open(wnf, encoding="latin-1")): # encoding necessary because I'm running this script on Linux but the files were created in Windows where the default encoding is latin1
     warn_notices.append(rec)
+
+# Parse the date of each warn notice.
+for wn in warn_notices:
+	date = wn["effective_date"]
+
+	# If there is a date range, help out the parser by taking just the first
+	# part of the range.
+	m = re.match(r"(.*(\d+/|,).*)(-|,|and|through).*(/\d+|,)", date)
+	if m:
+		date = m.group(1)
+	try:
+		wn["sort_date"] = parse_date(date, fuzzy=True, dayfirst=False).date().isoformat()
+	except:
+		print("Could not parse date:", wn["effective_date"])
 
 # Geolocate all of the warn notices.
 with shelve.open("geolocation.cache", flag='c') as geolocation_cache:
@@ -41,9 +61,9 @@ with shelve.open("geolocation.cache", flag='c') as geolocation_cache:
       wn["latitude"] = gc.coords[0]
       wn["longitude"] = gc.coords[1]
 
-# Drop warn notices without geolocation.
+# Drop warn notices without geolocation or sortable dates.
 warn_notices = [wn for wn in warn_notices
-                if "latitude" in wn]
+                if "latitude" in wn and "sort_date" in wn]
 
 # Assign warn notices to automatically generated clusters.
 # Although states are natural clusters that we already have,
@@ -64,7 +84,6 @@ cluster_numbers, _ = scipy.cluster.vq.vq(warn_notice_locations, cluster_centers)
 # Write out each cluster to a separate JSON file. Make
 # the output format compact to minimize network usage
 # and speed up loading.
-cluster_centers = []
 for ci in range(CLUSTER_COUNT):
   with open("../www/warn-notices-shards/{}.json".format(ci), "w") as f:
     cluster = []
@@ -72,12 +91,16 @@ for ci in range(CLUSTER_COUNT):
       if cluster_numbers[i] == ci:
         wn = warn_notices[i]
         cluster.append([
-          wn["company"],
-          wn["effective_date"],
-          wn["number_of_workers"],
-          wn["location"],
+          # structured data
+          wn["sort_date"],
           round(wn["latitude"], 4),
           round(wn["longitude"], 4),
+
+          # unstructured data
+          wn["number_of_workers"],
+          wn["company"],
+          wn["effective_date"],
+          wn["location"],
         ])
     json.dump(cluster, f)
 
@@ -99,7 +122,7 @@ with open("../www/warn-notices-shards/index.js", "w") as f:
 
   print(
     "warn_notice_clusters="
-    + json.dumps(cluster_centers)
+    + json.dumps(cluster_centers, indent='  ')
     + ";",
     file=f)
 

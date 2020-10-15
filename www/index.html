@@ -284,7 +284,21 @@
           } else {
             var ajax = new XMLHttpRequest();
             ajax.addEventListener("load", function() {
-              cluster.data = JSON.parse(this.responseText);
+              cluster.data = JSON.parse(this.responseText)
+                .map(function(item) {
+                  // Expand the flat list which was compact to save on
+                  // bandwidth and parser time back into a structured
+                  // object.
+                  return {
+                    sort_date: item[0],
+                    latitude: item[1],
+                    longitude: item[2],
+                    number_of_workers: item[3],
+                    company: item[4],
+                    effective_date: item[5],
+                    location: item[6]
+                  }
+                });
               after_cluster_loaded();
             });
             ajax.addEventListener("error", function() {
@@ -302,13 +316,22 @@
       function show_results_2(warn_notices, latitude, longitude, status_element, cb) {
         status(status_element, "Results loaded!", 100);
 
-        // Sort by distance and number of workers affected.
-        warn_notices.sort(function(a, b) {
-          function score(wn) {
-            return distance(wn[4], wn[5], latitude, longitude) / (parseInt(wn[2]) + 1);
-          }
-          return score(a) - score(b);
-        })
+        if (false) {
+          // Sort by distance and number of workers affected.
+          warn_notices.sort(function(a, b) {
+            function score(wn) {
+              return distance(wn.latitude, wn.longitude, latitude, longitude)
+              / (parseInt(wn.number_of_workers) + 1);
+            }
+            return score(a) - score(b);
+          });
+        }
+        if (true) {
+          // Sort by date in reverse chronological order.
+          warn_notices.sort(function(a, b) {
+            return -a.sort_date.localeCompare(b.sort_date);
+          })
+        }
 
         $('#results').show();
         var results = $('#results > *');
@@ -316,16 +339,16 @@
 
         var item_template = $('#result-item-template > *');
         warn_notices.forEach(function(wn) {
-          /*var d = distance(wn[4], wn[5], latitude, longitude);
+          /*var d = distance(wn.latitude, wn.longitude, latitude, longitude);
           d = Math.round(d * 10) / 10;
           if (d != 1) d += " miles"; else d += " mile";*/
 
           var n = item_template.clone();
-          n.find('h5').text(wn[0]);
-          n.find('.count').text(wn[2] + " layoffs");
-          n.find('.location').text(wn[3]);
+          n.find('h5').text(wn.company);
+          n.find('.count').text(wn.number_of_workers + " layoffs");
+          n.find('.location').text(wn.location);
           //n.find('.distance').text(d);
-          n.find('.date').text(wn[1]);
+          n.find('.date').text(wn.effective_date);
           n.find('.details').text("More info here.")
           n.find('a').attr('href', "https://www.google.com")
           results.append(n);
